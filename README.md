@@ -1,4 +1,0 @@
-lenashow
-========
-
-Сайт lenashow.ru
