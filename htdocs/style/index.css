@@ -1,18 +1,50 @@
-table.main {
-	width: 100%;
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #001423; /* 66666E, 091B27, 091B27 */
+	background-image: url('/image/back.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
-	table.main td.header, table.main td.footer {
-		height: 50px;
+p, a, div, td, input, textarea, select {
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+img {
+	border: none;
+}
+
+div.main {
+	width: 1190px;
+	margin: auto;
+}
+
+div.menu {
+	height: 420px;
+}
+
+div.contact {
+	width: 300px;
+	margin-left: 890px;
+	position: absolute;
+}
+
+	div.contact p {
+		color: #B1B6BC;
+		font-size: 24px;
+		font-style: italic;
+		text-align: right;
 	}
 
-	table.main td.menu, table.main td.news {
-		width: 200px;
-		vertical-align: top;
-	}
-
-	table.main td.content {
-		height: 500px;
-		vertical-align: top;
-	}
-
+div.content {
+	width: 615px;
+	height: 440px;
+	float: right;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url('/image/white.png');
+}
